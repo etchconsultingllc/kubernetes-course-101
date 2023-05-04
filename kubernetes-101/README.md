@@ -240,8 +240,8 @@ change the port to 80 for success scenario
 
 ## Resource request demo
 
-`kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml`
-add`- --kubelet-insecure-tls` flag to above yaml to work properly
+`wget https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml`
+add`- --kubelet-insecure-tls` flag to above yaml downloaded on your machine under specs to work properly ( - --kubelet-insecure-tls)
 
 ```
 apiVersion: v1
